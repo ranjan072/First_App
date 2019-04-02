@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FD6E4A</color>
+    <color name="colorPrimaryDark">#FC525B</color>
+    <color name="colorAccent">#F6346C</color>
+
+    <color name="colorPrimary1">#E6295F</color>
+    <color name="colorPrimaryDark1">#D61B50</color>
+    <color name="colorAccent1">#D81B60</color>
+
+
+    <color name="colorTimeline">#F2504E</color>
+    <color name="colorFriendList">#EED45B</color>
+    <color name="colorChat">#BBE249</color>
+    <color name="colorMusic">#47D26B</color>
+    <color name="colorGalary">#47DFE2</color>
+    <color name="colorMap">#5A9DEE</color>
+    <color name="colorWeather">#7652DA</color>
+    <color name="colorSetting">#D65AEE</color>
+    <color name="colorTint">#ffffff</color>
+</resources>
