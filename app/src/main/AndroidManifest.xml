@@ -22,6 +22,14 @@
         <activity
             android:name=".SignUp">
         </activity>
+        <activity
+            android:name=".Dashboard">
+
+        </activity>
+        <activity
+            android:name=".Timeline">
+
+        </activity>
 
     </application>
 

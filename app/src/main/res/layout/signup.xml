@@ -20,7 +20,8 @@
 
             android:layout_marginTop="10dp"
 
-            app:srcCompat="@drawable/logo" />
+            android:src="@drawable/logo" />
+
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -73,6 +74,7 @@
             android:layout_marginLeft="30dp"
             android:layout_marginTop="20dp"
             android:layout_marginRight="30dp"
+            android:textColor="#ffffff"
             android:hint="Enter emailid"
             android:inputType="textPersonName" />
 
@@ -83,6 +85,7 @@
             android:layout_marginLeft="30dp"
             android:layout_marginTop="15dp"
             android:layout_marginRight="30dp"
+            android:textColor="#ffffff"
             android:hint="Password"
             android:inputType="textPassword" />
 
@@ -93,6 +96,7 @@
             android:layout_marginLeft="30dp"
             android:layout_marginTop="10dp"
             android:layout_marginRight="30dp"
+            android:textColor="#ffffff"
             android:hint="Confirm Password"
             android:inputType="textPassword" />
 

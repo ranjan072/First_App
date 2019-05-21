@@ -3,13 +3,14 @@ package com.example.rkumar1.first_app;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.PersistableBundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.util.Log;
+
 
 public class SignUp extends AppCompatActivity {
     DataBaseHelper db;
@@ -47,9 +48,19 @@ public class SignUp extends AppCompatActivity {
                     if(s2.equals(s3)){
                         Boolean checkemail=db.checkEmail(s1);
                         if(checkemail==true){
-                            Boolean insert =db.insert(s1,s2);
-                            if(insert==true){
+                            Long obj =db.insert(s1,s2);
+                            if(obj!=-1){
                                 Toast.makeText(getApplicationContext(),"registered successfully",Toast.LENGTH_SHORT).show();
+                                db.insert(s1,s2);
+                                Intent intent = new Intent(SignUp.this, LogIn.class);
+
+                                //Sending data to another Activity
+
+                               // nextScreen.putExtra("eemail", email2.getText().toString());
+
+                                //Log.e("n", String.valueOf(email2.getText()));
+
+                                startActivity(intent);
                             }
                         }
                         else{

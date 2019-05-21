@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/activity"
-   android:layout_gravity="center"
+    android:layout_gravity="center"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -20,7 +20,7 @@
             android:layout_width="wrap_content"
             android:layout_height="90dp"
             android:layout_gravity="center"
-            app:srcCompat="@drawable/logo"
+            android:src="@drawable/logo"
             />
 
         <LinearLayout
@@ -37,7 +37,7 @@
                 android:background="@drawable/round2"
                 android:text="CONN"
                 android:textColor="#C70039"
-                android:textSize="@dimen/text_view"
+                android:textSize="25dp"
                 />
 
             <TextView
@@ -50,7 +50,7 @@
                 android:background="@drawable/round3"
                 android:text="EXION"
                 android:textColor="#ffffff"
-                android:textSize="@dimen/text_view"
+                android:textSize="25dp"
                 />
         </LinearLayout>
 
